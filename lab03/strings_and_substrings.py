@@ -43,7 +43,7 @@ while True:
 long_str = "".join(long_sequence)
 short_str = "".join(short_sequence)
 
-#verify that the sequence is containd in long sequence
+#verify that the sequence is contained in long sequence
 if short_str in long_str:
     print("I. the 'long sequence' contains the 'short sequence'")
 
@@ -53,7 +53,7 @@ if short_str in long_str:
 
     #let's read through the string 
     for i in range(len(long_str) - len(short_str) +1):
-        #estracting the protion of the string
+        #extracting the protion of the string
         if long_str[i:i+len(short_str)] == short_str:
             position.append(i)
 
